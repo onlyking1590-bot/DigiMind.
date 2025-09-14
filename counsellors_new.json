@@ -1,0 +1,67 @@
+{
+  "roleConfig": {
+    "admin": {
+      "sections": ["dashboard", "admin", "bookings", "reports"],
+      "features": [
+        "manageCounsellors",
+        "manageStudents",
+        "viewAllBookings",
+        "generateReports",
+        "systemSettings"
+      ]
+    },
+    "counsellor": {
+      "sections": ["dashboard", "bookings", "reports"],
+      "features": [
+        "viewAppointments",
+        "patientHistory",
+        "manageAvailability",
+        "generateReports"
+      ]
+    },
+    "student": {
+      "sections": ["dashboard", "assessment", "wellness", "bookings", "reports"],
+      "features": [
+        "takeAssessment",
+        "bookAppointment",
+        "viewProgress",
+        "accessWellness",
+        "viewPersonalReports"
+      ]
+    }
+  },
+  "emergency": {
+    "contacts": [
+      {
+        "name": "NIMHANS Emergency Services",
+        "number": "+91 80 2699 5555",
+        "description": "24/7 Mental Health Emergency Support"
+      },
+      {
+        "name": "Mental Health Helpline (Tata Institute)",
+        "number": "+91 22 2754 6669",
+        "description": "Professional counseling support"
+      },
+      {
+        "name": "Vandrevala Foundation",
+        "number": "+91 1860 2662 345",
+        "description": "24/7 Crisis helpline"
+      },
+      {
+        "name": "Coimbatore Mental Health Helpline",
+        "number": "+91 422 2302300",
+        "description": "Local mental health support"
+      },
+      {
+        "name": "Police Emergency",
+        "number": "112",
+        "description": "Emergency police assistance"
+      },
+      {
+        "name": "Ambulance",
+        "number": "108",
+        "description": "Emergency medical services"
+      }
+    ]
+  }
+}

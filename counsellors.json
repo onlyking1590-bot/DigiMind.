@@ -1,0 +1,236 @@
+{
+  "counsellors": [
+    {
+      "id": "c1",
+      "name": "Dr. Priya Krishnamurthy",
+      "email": "priya.krishnamurthy@digimind.com",
+      "specialty": "Anxiety & Depression",
+      "experience": "8 years",
+      "avatar": "👩‍⚕️",
+      "bio": "Dr. Krishnamurthy specializes in cognitive behavioral therapy and has helped hundreds of students in Tamil Nadu overcome anxiety and depression.",
+      "location": "Coimbatore",
+      "phone": "+91 9876543210",
+      "languages": ["Tamil", "English", "Hindi"],
+      "qualification": "M.D. Psychiatry, NIMHANS Bangalore",
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": ["09:00", "11:00", "14:00", "16:00"]
+        },
+        {
+          "day": "Wednesday",
+          "slots": ["10:00", "13:00", "15:00"]
+        },
+        {
+          "day": "Friday",
+          "slots": ["09:00", "11:00", "14:00"]
+        }
+      ],
+      "rating": 4.9,
+      "totalSessions": 145,
+      "available": true
+    },
+    {
+      "id": "c2",
+      "name": "Dr. Rajesh Murugan",
+      "email": "rajesh.murugan@digimind.com",
+      "specialty": "Stress Management & Academic Pressure",
+      "experience": "12 years",
+      "avatar": "👨‍⚕️",
+      "bio": "Dr. Murugan focuses on mindfulness-based stress reduction and has extensive experience helping engineering and medical students in Coimbatore manage academic pressure.",
+      "location": "Coimbatore",
+      "phone": "+91 9876543211",
+      "languages": ["Tamil", "English"],
+      "qualification": "Ph.D. Clinical Psychology, University of Madras",
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": ["08:00", "10:00", "13:00", "15:00"]
+        },
+        {
+          "day": "Thursday",
+          "slots": ["09:00", "11:00", "14:00", "16:00"]
+        },
+        {
+          "day": "Saturday",
+          "slots": ["10:00", "12:00", "14:00"]
+        }
+      ],
+      "rating": 4.8,
+      "totalSessions": 203,
+      "available": true
+    },
+    {
+      "id": "c3",
+      "name": "Dr. Meera Subramanian",
+      "email": "meera.subramanian@digimind.com",
+      "specialty": "Student Counseling & Career Guidance",
+      "experience": "10 years",
+      "avatar": "👩‍🏫",
+      "bio": "Dr. Subramanian specializes in academic stress, social anxiety, and career counseling for students in Tamil Nadu. She has worked extensively with students from PSG, Coimbatore Institute of Technology.",
+      "location": "Coimbatore",
+      "phone": "+91 9876543212",
+      "languages": ["Tamil", "English", "Malayalam"],
+      "qualification": "M.Phil. Counseling Psychology, Bharathiar University",
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": ["10:00", "12:00", "15:00"]
+        },
+        {
+          "day": "Tuesday",
+          "slots": ["09:00", "11:00", "14:00", "16:00"]
+        },
+        {
+          "day": "Thursday",
+          "slots": ["08:00", "10:00", "13:00"]
+        }
+      ],
+      "rating": 4.7,
+      "totalSessions": 98,
+      "available": true
+    },
+    {
+      "id": "c4",
+      "name": "Dr. Arun Kumar",
+      "email": "arun.kumar@digimind.com",
+      "specialty": "Crisis Intervention & Emergency Support",
+      "experience": "15 years",
+      "avatar": "👨‍💼",
+      "bio": "Dr. Kumar provides emergency support and crisis intervention services. He is available 24/7 for urgent mental health needs and has extensive experience with suicide prevention.",
+      "location": "Coimbatore",
+      "phone": "+91 9876543213",
+      "languages": ["Tamil", "English", "Hindi"],
+      "qualification": "M.D. Psychiatry, JIPMER Puducherry",
+      "availability": [
+        {
+          "day": "Daily",
+          "slots": ["Emergency - 24/7"]
+        }
+      ],
+      "rating": 4.9,
+      "totalSessions": 276,
+      "available": true
+    },
+    {
+      "id": "c5",
+      "name": "Dr. Lakshmi Narayanan",
+      "email": "lakshmi.narayanan@digimind.com",
+      "specialty": "Family Therapy & Relationship Counseling",
+      "experience": "9 years",
+      "avatar": "👩‍⚕️",
+      "bio": "Dr. Narayanan specializes in family dynamics, relationship issues, and social adjustment problems common among college students in Tamil Nadu.",
+      "location": "Coimbatore",
+      "phone": "+91 9876543214",
+      "languages": ["Tamil", "English"],
+      "qualification": "M.A. Clinical Psychology, Madras University",
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": ["11:00", "13:00", "16:00"]
+        },
+        {
+          "day": "Wednesday",
+          "slots": ["09:00", "12:00", "15:00"]
+        },
+        {
+          "day": "Friday",
+          "slots": ["10:00", "14:00", "17:00"]
+        }
+      ],
+      "rating": 4.6,
+      "totalSessions": 87,
+      "available": true
+    },
+    {
+      "id": "c6",
+      "name": "Dr. Venkatesh Raman",
+      "email": "venkatesh.raman@digimind.com",
+      "specialty": "Addiction Counseling & Behavioral Therapy",
+      "experience": "11 years",
+      "avatar": "👨‍⚕️",
+      "bio": "Dr. Raman specializes in addiction counseling, behavioral therapy, and helping students overcome substance abuse and behavioral addictions including internet and gaming addiction.",
+      "location": "Coimbatore",
+      "phone": "+91 9876543215",
+      "languages": ["Tamil", "English", "Telugu"],
+      "qualification": "M.Phil. Rehabilitation Psychology, NIMHANS",
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": ["09:00", "11:00", "14:00"]
+        },
+        {
+          "day": "Thursday",
+          "slots": ["10:00", "13:00", "15:00"]
+        },
+        {
+          "day": "Saturday",
+          "slots": ["09:00", "11:00", "13:00"]
+        }
+      ],
+      "rating": 4.5,
+      "totalSessions": 134,
+      "available": true
+    },
+    {
+      "id": "c7",
+      "name": "Dr. Kavitha Selvam",
+      "email": "kavitha.selvam@digimind.com",
+      "specialty": "Women's Mental Health & Trauma Counseling",
+      "experience": "7 years",
+      "avatar": "👩‍⚕️",
+      "bio": "Dr. Selvam specializes in women's mental health issues, trauma counseling, and helping female students deal with harassment, body image issues, and gender-specific challenges.",
+      "location": "Coimbatore",
+      "phone": "+91 9876543216",
+      "languages": ["Tamil", "English"],
+      "qualification": "M.Sc. Clinical Psychology, PSG College of Arts & Science",
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": ["09:00", "12:00", "15:00"]
+        },
+        {
+          "day": "Wednesday",
+          "slots": ["10:00", "13:00", "16:00"]
+        },
+        {
+          "day": "Friday",
+          "slots": ["11:00", "14:00", "17:00"]
+        }
+      ],
+      "rating": 4.8,
+      "totalSessions": 76,
+      "available": true
+    },
+    {
+      "id": "c8",
+      "name": "Dr. Suresh Babu",
+      "email": "suresh.babu@digimind.com",
+      "specialty": "ADHD & Learning Disabilities",
+      "experience": "13 years",
+      "avatar": "👨‍🏫",
+      "bio": "Dr. Babu specializes in ADHD, learning disabilities, and academic performance issues. He has helped many engineering students in Coimbatore overcome learning challenges.",
+      "location": "Coimbatore",
+      "phone": "+91 9876543217",
+      "languages": ["Tamil", "English", "Kannada"],
+      "qualification": "M.Phil. Special Education, RCI Certified",
+      "availability": [
+        {
+          "day": "Tuesday",
+          "slots": ["08:00", "10:00", "15:00"]
+        },
+        {
+          "day": "Thursday",
+          "slots": ["09:00", "12:00", "16:00"]
+        },
+        {
+          "day": "Saturday",
+          "slots": ["10:00", "13:00", "15:00"]
+        }
+      ],
+      "rating": 4.7,
+      "totalSessions": 156,
+      "available": true
+    }
+  ]
+}

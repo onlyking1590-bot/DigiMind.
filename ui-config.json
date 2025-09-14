@@ -1,0 +1,143 @@
+{
+  "theme": {
+    "primaryColor": "#6366f1",
+    "secondaryColor": "#8b5cf6",
+    "accentColor": "#06d6a0",
+    "backgroundColor": "#f8fafc",
+    "textColor": "#1e293b"
+  },
+  "features": {
+    "enableNotifications": true,
+    "enableDarkMode": false,
+    "enableAnalytics": true,
+    "enableExport": true
+  },
+  "ui": {
+    "showWelcomeMessage": true,
+    "animationDuration": 300,
+    "maxNotifications": 5,
+    "autoSaveInterval": 30000
+  },
+  "localization": {
+    "defaultLanguage": "en",
+    "supportedLanguages": ["en", "ta"],
+    "dateFormat": "DD/MM/YYYY",
+    "timeFormat": "12h"
+  },
+  "roleConfig": {
+    "admin": {
+      "sections": ["dashboard", "admin", "bookings", "reports", "analytics"],
+      "features": [
+        "manageCounsellors",
+        "manageStudents",
+        "viewAllBookings",
+        "generateReports",
+        "systemSettings",
+        "emergencyAlerts",
+        "analyticsAccess",
+        "userManagement"
+      ],
+      "dashboard": {
+        "widgets": [
+          "totalUsers",
+          "activeSessions",
+          "emergencyCases",
+          "systemHealth",
+          "counsellorPerformance",
+          "studentEngagement"
+        ]
+      }
+    },
+    "counsellor": {
+      "sections": ["dashboard", "appointments", "patients", "reports", "schedule"],
+      "features": [
+        "viewAppointments",
+        "patientHistory",
+        "manageAvailability",
+        "generateReports",
+        "emergencyResponses",
+        "sessionNotes",
+        "messagePatients",
+        "scheduleFollowups"
+      ],
+      "dashboard": {
+        "widgets": [
+          "todayAppointments",
+          "patientProgress",
+          "urgentCases",
+          "upcomingSessions",
+          "recentNotes",
+          "patientFeedback"
+        ]
+      }
+    },
+    "student": {
+      "sections": ["dashboard", "assessment", "wellness", "bookings", "reports", "resources"],
+      "features": [
+        "takeAssessment",
+        "bookAppointment",
+        "viewProgress",
+        "accessWellness",
+        "viewPersonalReports",
+        "moodTracking",
+        "journaling",
+        "meditationAccess",
+        "emergencyContacts"
+      ],
+      "dashboard": {
+        "widgets": [
+          "moodTracker",
+          "upcomingSession",
+          "wellnessScore",
+          "dailyTips",
+          "progressGraph",
+          "achievements"
+        ]
+      }
+    }
+  },
+  "emergency": {
+    "contacts": [
+      {
+        "name": "PSG Hospitals Mental Health",
+        "number": "+91 422 2570170",
+        "description": "24/7 Mental Health Support - PSG Hospitals, Coimbatore"
+      },
+      {
+        "name": "Sri Ramakrishna Hospital",
+        "number": "+91 422 4500000",
+        "description": "Mental Health Emergency Support - Coimbatore"
+      },
+      {
+        "name": "Kovai Medical Center",
+        "number": "+91 422 4323000",
+        "description": "24/7 Crisis Support - KMCH, Coimbatore"
+      },
+      {
+        "name": "Government Hospital Coimbatore",
+        "number": "+91 422 2301393",
+        "description": "Government Mental Health Services"
+      },
+      {
+        "name": "NIMHANS Helpline",
+        "number": "080-46110007",
+        "description": "National Mental Health Support"
+      },
+      {
+        "name": "Vandrevala Foundation",
+        "number": "1860-2662-345",
+        "description": "24/7 Crisis Helpline"
+      },
+      {
+        "name": "Police Emergency - Coimbatore",
+        "number": "100",
+        "description": "Local Police Emergency"
+      },
+      {
+        "name": "Ambulance - Tamil Nadu",
+        "number": "108",
+        "description": "Emergency Medical Services"
+      }
+    ]
+  }
+}
